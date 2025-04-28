@@ -1,48 +1,58 @@
-Project Overview
+# Project Overview
 
-Exploring Sarcasm Dynamics: Insights from Reddit Corpus Analysis
+**Exploring Sarcasm Dynamics: Insights from Reddit Corpus Analysis**
 
-About This Project
-
-This project is a Colab notebook exploring sarcasm detection through machine learning techniques, applied to large-scale Reddit comment datasets.
+## About This Project
+This project is a Colab notebook exploring sarcasm detection through machine learning techniques, applied to large-scale Reddit comment datasets.  
 It demonstrates data preprocessing, manual labeling, model training, and performance evaluation, showcasing skills in Python programming, natural language processing (NLP), and deep learning model development.
 
-Motivation
+---
 
-Understanding sarcasm is crucial for improving natural language processing systems, especially in real-world, noisy environments like social media platforms.
+## Motivation
+Understanding sarcasm is crucial for improving natural language processing systems, especially in real-world, noisy environments like social media platforms.  
 Applications include:
+- **Brand Perception & Market Research**: Companies can better detect genuine customer sentiments on social media, distinguishing between negative comments and sarcastic praise.
+- **Political Science & Public Opinion Monitoring**: Analysts can more accurately assess public reactions to policies, speeches, and major events, capturing nuanced opinions that traditional sentiment analysis may miss.
 
-Brand Perception & Market Research: Companies can better detect genuine customer sentiments on social media, distinguishing between negative comments and sarcastic praise.
-Political Science & Public Opinion Monitoring: Analysts can more accurately assess public reactions to policies, speeches, and major events, capturing nuanced opinions that traditional sentiment analysis may miss.
-Methodology
+---
 
-Manual Labeling: 2,000 Reddit comments manually labeled for sarcasm.
-Training with Self-Annotated Dataset: SARC (Self-Annotated Reddit Corpus) dataset used for large-scale training.
-Modeling Techniques:
-Multi-Kernel Conv-GRU (Gated Recurrent Unit) model for sarcasm detection.
-Comparison with GPT-based models under zero-shot and few-shot settings.
-Application Extension:
-Investigated potential applications during political elections to better understand voter sentiment containing satire.
-Highlights
+## Methodology
+- **Manual Labeling**: 2,000 Reddit comments manually labeled for sarcasm.
+- **Training with Self-Annotated Dataset**: SARC (Self-Annotated Reddit Corpus) dataset used for large-scale training.
+- **Modeling Techniques**:  
+  - Multi-Kernel Conv-GRU (Gated Recurrent Unit) model for sarcasm detection.  
+  - Comparison with GPT-based models under zero-shot and few-shot settings.
+- **Application Extension**:  
+  - Investigated potential applications during political elections to better understand voter sentiment containing satire.
 
-Built and evaluated multiple sarcasm detection models.
-Achieved performance improvements by analyzing label quality and dataset characteristics.
-Compared custom models with OpenAI GPT-based sarcasm detection benchmarks.
-How to Run
+---
 
-Open the .ipynb notebook in Google Colab or Jupyter Notebook.
-Follow the code cells sequentially.
-Install necessary packages if prompted (numpy, pandas, scikit-learn, tensorflow, etc.).
-Requirements
+## Highlights
+- Built and evaluated multiple sarcasm detection models.
+- Achieved performance improvements by analyzing label quality and dataset characteristics.
+- Compared custom models with OpenAI GPT-based sarcasm detection benchmarks.
 
-Python 3.x
-Libraries:
-numpy
-pandas
-matplotlib
-scikit-learn
-tensorflow or pytorch (depending on the model section)
-Future Work and Limitations
+---
+
+## How to Run
+1. Open the `.ipynb` notebook in Google Colab or Jupyter Notebook.
+2. Follow the code cells sequentially.
+3. Install necessary packages if prompted.
+
+---
+
+## Requirements
+- Python 3.x
+- Libraries:
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tensorflow
+  - nltk
+
+
+## Future Work and Limitations
 
 Dataset limitations (temporal/cultural variability, non-standard sarcasm markers).
 Label noise issues in self-annotated corpora.
@@ -55,5 +65,5 @@ And others (see detailed references in the notebook and project presentation).
 Contact
 
 Ziyuan Ma
-Email: zm83@duke.edu
+Email: ziyuanma16@gmail.com
 
